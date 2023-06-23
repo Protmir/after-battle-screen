@@ -1,6 +1,4 @@
-import { PlayerModel } from '../../types/PlayerModel';
-
-export const userData: PlayerModel[] = [
+module.exports = [
     {
         name: 'Player 1',
         point: 1000,
