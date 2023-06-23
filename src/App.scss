@@ -1,0 +1,23 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.main-title__red {
+  color: #d20010;
+}
+
+.main-title__blue {
+  color: #535bf2;
+}
+
+.main-title__gold {
+  color: #e6c619;
+}
+
+.main-wrapper__table {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}

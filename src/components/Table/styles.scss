@@ -1,0 +1,79 @@
+.main-wrapper__table {
+  h2 {
+    margin: 0 0 3vw;
+
+    font-size: 3vw;
+    line-height: 1.1;
+    color: #535bf2;
+
+    &.red {
+      color: #d20010;
+    }
+  }
+
+  .table-wrapper:first-child {
+    margin-right: 5vw;
+  }
+
+  .table-wrapper {
+    table {
+      width: 40vw;
+      border: 1px solid saddlebrown;
+      padding: 1.2vw;
+
+      overflow-y: auto;
+      height: 60vh;
+      display: block;
+
+      .table-avatar__column {
+        width: 10%;
+      }
+
+      th:not(.table-points__column) {
+        text-align: left;
+      }
+
+      .table-points__column {
+        width: 15%;
+        text-align: right;
+      }
+
+      thead {
+        * {
+          font-size: 1.8vw;
+        }
+      }
+
+      tbody {
+        :not(:last-child) {
+          td {
+            padding-bottom: 1vw;
+          }
+        }
+
+        * {
+          font-size: 2vw;
+        }
+      }
+
+      td:not(.table-points__data) {
+        text-align: left;
+      }
+
+      .table-points__data {
+        text-align: right;
+
+        user-select: none;
+      }
+
+      .table-name__data p, .table-full__column p {
+        margin-left: 2vw;
+        width: fit-content;
+      }
+
+      .table-name__data p {
+        cursor: pointer;
+      }
+    }
+  }
+}

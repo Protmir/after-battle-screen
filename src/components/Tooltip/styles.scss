@@ -1,0 +1,23 @@
+.MuiTooltip-tooltip {
+  width: 13vw;
+  max-width: none !important;
+  padding: 1vw !important;
+
+  justify-content: center;
+  color: #FFFFFF;
+  background-color: #FF8E00;
+  box-shadow: 0 4px 64px rgba(0, 0, 0, 0.1);
+  border-radius: 1vw !important;
+  text-align: center;
+  white-space: pre-line;
+  font-weight: 700 ;
+  pointer-events: auto;
+}
+
+.MuiTooltip-popper {
+  z-index: 9999;
+}
+
+.MuiTooltip-tooltipPlacementTop, .MuiTooltip-tooltipPlacementBottom {
+  margin-bottom: 1vw !important;
+}
